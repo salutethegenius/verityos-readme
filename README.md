@@ -27,13 +27,14 @@ Designed to operate like a human team with role-specific AI agents working toget
 | `Nova`   | Content researcher + RAG interface       |
 | `Ripple` | Inbox + email intelligence               |
 | `Minty`  | Financial monitoring                     |
-| `Mango`  | DevTools and code builder                |
+| `Mango`  | Reasoning-first agent builder + API integrator |
 
 ---
 
 ## 📦 Features
 
 - 🧠 **Embodied memory + sentiment-aware context**
+- 🍋 **Mango CLI:** Instantly generate custom agents from plain-language goals
 - 🛠️ **Agent-to-Agent protocol (A2A)**
 - 💬 **Chat + Command interface**
 - 📁 **Encrypted local memory vaults**
@@ -68,6 +69,7 @@ VerityOS can run on:
 4. Install dependencies  
 5. Run VerityOS  
 6. Inside the system, run `.help` to view available commands  
+7. Try the Mango CLI with: `python3 agents/mango/boot.py`
 
 ---
 
